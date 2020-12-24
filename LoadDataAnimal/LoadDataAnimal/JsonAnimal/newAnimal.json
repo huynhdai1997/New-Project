@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Big Foot",
+    "weigh": "780.0 kg",
+    "speed": "45.0 km/h",
+    "carnivore": true,
+    "old" : "200yrs",
+    "food": "pig, cow, grass",
+    "image" : "https://i.imgur.com/zFmrw6h.jpg"
+  },
+  {
+    "name": "White Sky",
+    "weigh": "67.0 kg",
+    "speed": "80.9 km/h",
+    "carnivore": true,
+    "old" : "50 yrs",
+    "food": "rabbit, cow",
+    "image" : "https://3.bp.blogspot.com/-i4HpT7PzOVs/Vb82t6EwFWI/AAAAAAAAEv0/r0MFr7bf1-Y/s1600/db.jpg"
+  },
+  {
+    "name": "Lion King",
+    "weigh": "120.0 kg",
+    "speed": "50.4 km/h",
+    "carnivore": true,
+    "old" : "67 yrs",
+    "food": "deer, rabbit",
+    "image" : "https://genk.mediacdn.vn/thumb_w/640/2014/phat-trien-thuong-hieu-su-tu-gam-o-dau-1399271086797.jpg"
+  },
+  {
+    "name": "Cheetah",
+    "weigh": "70.0 kg",
+    "speed": "130.0 km/h",
+    "carnivore": true,
+    "old" : "12 yrs",
+    "food": "antelope, boar",
+    "image" : "https://st.quantrimang.com/photos/image/2016/12/09/bao-san-650.jpg"
+  },
+  {
+    "name": "Honey Badger",
+    "weigh": "10.0 kg",
+    "speed": "53.0 km/h",
+    "carnivore": true,
+    "old" : "20 yrs",
+    "food": "honey, snake, ratel",
+    "image" : "https://i.pinimg.com/originals/7e/17/9e/7e179ea2c43a14e1e6c60fac2e54ba5b.jpg"
+  },
+  {
+    "name": "Tiger",
+    "weigh": "310.0 kg",
+    "speed": "65.0 km/h",
+    "carnivore": true,
+    "old" : "15 yrs",
+    "food": "deer, rabbit, giraffe",
+    "image" : "https://i.pinimg.com/originals/59/4c/11/594c11e8c000eec9be98652be3f8082f.jpg"
+  },
+  {
+    "name": "Panda",
+    "weigh": "90.0 kg",
+    "speed": "38.0 km/h",
+    "carnivore": false,
+    "old" : "20 yrs",
+    "food": "grass, leaf",
+    "image" : "https://i.pinimg.com/originals/f6/4b/62/f64b6231e350a1b670f0b90df43d0c88.jpg"
+  },
+  {
+    "name": "Bears",
+    "weigh": "450.0 kg",
+    "speed": "40.0 km/h",
+    "carnivore": true,
+    "old" : "25 yrs",
+    "food": "salmon, honey, Ratel",
+    "image": "https://1acgtt12xmhd5laxc2saim4d-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/22556249_web1_Bear-Grizzly-2-1024x683.jpg"
+  },
+  {
+    "name": "elephants",
+    "weigh": "4000.0 kg",
+    "speed": "40.0 km/h",
+    "carnivore": false,
+    "old" : "60 yrs",
+    "food": "grass, banana, leaf",
+    "image": "https://images.theconversation.com/files/62656/original/nrtfqxhv-1414079052.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+  },
+  {
+    "name": "the wolf",
+    "weigh": "70.0 kg",
+    "speed": "60.0 km/h",
+    "carnivore": true,
+    "old" : "10 yrs",
+    "food": "rabbit, mouse",
+    "image": "https://i.pinimg.com/originals/78/8b/c3/788bc3492d35b0a06f0c30049c68b023.jpg"
+  },
+  {
+    "name": "Horse",
+    "weigh": "320.0 kg",
+    "speed": "88.0 km/h",
+    "carnivore": false,
+    "old" : "25 yrs",
+    "food": "grass",
+    "image": "https://i.pinimg.com/originals/cb/9f/66/cb9f667b784df0b6fee7db6bd9dcf826.jpg"
+  },
+  {
+    "name": "Cobra",
+    "weigh": "5.0 kg",
+    "speed": "40.0 km/h",
+    "carnivore": true,
+    "old" : "20 yrs",
+    "food": "mouse, toad, frog",
+    "image": "https://image.tienphong.vn/Uploaded/ctv_tuansandro/2018_11_24/tien_phong_Nhung_loai_ran_doc_dang_so_nhat_o_Viet_Nam_7_UCPS_YMSJ.jpg"
+  },
+  {
+    "name": "Cat",
+    "weigh": "3.0 kg",
+    "speed": "50.0 km/h",
+    "carnivore": true,
+    "old" : "22 yrs",
+    "food": "mouse, fish",
+    "image": "https://images.kienthuc.net.vn/zoom/800/uploaded/ctvcongdongtre/2020_04_18/9/vi-sao-noi-meo-den-mang-lai-diem-xui-xeo.jpg"
+  },
+  {
+    "name": "Turtle",
+    "weigh": "600.0 kg",
+    "speed": "35.0 km/h",
+    "carnivore": true,
+    "old" : "150 yrs",
+    "food": "shrimp, crab, squid",
+    "image": "https://tapchibosat.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/rC3B9a-Aldabra.jpeg?v=1589684540"
+  },
+  {
+    "name": "Monkey",
+    "weigh": "20.0 kg",
+    "speed": "50.0 km/h",
+    "carnivore": false,
+    "old" : "27 yrs",
+    "food": "leaf, banana",
+    "image": "https://cdn.the-scientist.com/assets/articleNo/66481/aImg/33751/article-monkey-noise-l.png"
+  },
+  {
+    "name": "Dolphin",
+    "weigh": "75.0 kg",
+    "speed": "80.0 km/h",
+    "carnivore": true,
+    "old" : "40 yrs",
+    "food": "tuna, scad",
+    "image": "https://images2.minutemediacdn.com/image/upload/c_crop,h_1778,w_3155,x_0,y_843/v1554928552/shape/mentalfloss/540093-istock-514343279.jpg?itok=isS-TJcM"
+  },
+  {
+    "name": "Whale",
+    "weigh": "30000.0  kg",
+    "speed": "45.0 km/h",
+    "carnivore": false,
+    "old" : "80 yrs",
+    "food": "plankton",
+    "image": "https://image.pbs.org/video-assets/pbs/life-reef/181168/images/mezzanine_250.jpg"
+  },
+  {
+    "name": "Crocodile",
+    "weigh": "450.0 kg",
+    "speed": "32.0 km/h",
+    "carnivore": true,
+    "old" : "70 yrs",
+    "food": "Zebra, Antelope",
+    "image": "https://static.scientificamerican.com/sciam/cache/file/489C6E6F-FB9B-43BA-9A9E0639B454F837_source.jpg"
+  },
+  {
+    "name": "Shark",
+    "weigh": "500.0 kg",
+    "speed": "50.0 km/h",
+    "carnivore": true,
+    "old" : "20 yrs",
+    "food": "tuna, ray, erignathus barbarous",
+    "image": "https://kpbs.media.clients.ellingtoncms.com/img/croppedphotos/2019/10/01/Great_White_Shark_Promo_Image_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d"
+  },
+  {
+    "name": "Python",
+    "weigh": "160.0 kg",
+    "speed": "35.0 km/h",
+    "carnivore": true,
+    "old" : "25 yrs",
+    "food": "deer, rabbit, cow",
+    "image" : "https://media.tintucvietnam.vn/files/f1/2019/01/27/con-nua-la-con-gi-va-con-nua-khac-con-tran-the-nao-bb-baaad3WXf2.jpg?v=1548605049880"
+  },
+  {
+    "name": "Hawk",
+    "weigh": "2.0 kg",
+    "speed": "120.0 km/h",
+    "carnivore": true,
+    "old" : "50 yrs",
+    "food": "sparrow, snake, squirrel, pigeon",
+    "image" : "https://images.immediate.co.uk/production/volatile/sites/23/2018/09/Harris-hawk-_-Marcel-ter-Bekke-_-Getty_623_0-3ce376c.jpg?quality=90&resize=611%2C407"
+  },
+  {
+    "name": "Rhino",
+    "weigh": "1500.0 kg",
+    "speed": "55.0 km/h",
+    "carnivore": false,
+    "old" : "40 yrs",
+    "food": "grass",
+    "image" : "https://i.dailymail.co.uk/1s/2019/05/03/20/13063520-0-image-a-23_1556912515337.jpg"
+  },
+  {
+    "name": "Hippo",
+    "weigh": "1500.0 kg",
+    "speed": "48.0 km/h",
+    "carnivore": true,
+    "old" : "40 yrs",
+    "food": "grass, banana, watermelon",
+    "image" : "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/5/d9/5d9578a0-4ed2-11ea-ac76-ebd746d19a43/5e4606f0d1ceb.image.jpg?resize=1024%2C683"
+  },
+  {
+    "name": "Polar Bears",
+    "weigh": "600.0 kg",
+    "speed": "50.0 km/h",
+    "carnivore": true,
+    "old" : "25 yrs",
+    "food": "erignathus barbarous",
+    "image" : "https://19mvmv3yn2qc2bdb912o1t2n-wpengine.netdna-ssl.com/science/files/2013/12/tnc_17745326_preview-1260x708.jpg"
+  },
+  {
+    "name": "Flamingo",
+    "weigh": "4.0 kg",
+    "speed": "60.0 km/h",
+    "carnivore": true,
+    "old" : "50 yrs",
+    "food": "shrimp, fish",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wildlife_in_and_around_Reserva_Laguna_Nimez_in_El_Calafate%2C_Argentina_-_Chilaen_Flamingo_%28Phoenicopterus_chilensis%29_-_%2825186867925%29.jpg/1200px-Wildlife_in_and_around_Reserva_Laguna_Nimez_in_El_Calafate%2C_Argentina_-_Chilaen_Flamingo_%28Phoenicopterus_chilensis%29_-_%2825186867925%29.jpg"
+  },
+  {
+    "name": "Komodo",
+    "weigh": "90.0 kg",
+    "speed": "20.0 km/h",
+    "carnivore": true,
+    "old" : "30 yrs",
+    "food": "buffalo, deer",
+    "image" : "https://www.telegraph.co.uk/content/dam/Travel/2019/September/CROP-Rinca-Island-Komodo-dragon-Gettuy.jpg"
+  },
+  {
+    "name": "Vulture",
+    "weigh": "3.5 kg",
+    "speed": "60.0 km/h",
+    "carnivore": true,
+    "old" : "10 yrs",
+    "food": "animal carcasses",
+    "image" : "https://asset-manager.bbcchannels.com/i/2eft70go08c1000"
+  },
+  {
+    "name": "Fox",
+    "weigh": "25.0 kg",
+    "speed": "70.0 km/h",
+    "carnivore": true,
+    "old" : "5 yrs",
+     "food": "rabbit, blackcock",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Vulpes_vulpes_ssp_fulvus_6568085.jpg/1200px-Vulpes_vulpes_ssp_fulvus_6568085.jpg"
+  },
+  {
+    "name": "Hyenas",
+    "weigh": "55.0 kg",
+    "speed": "64.0 k m/h",
+    "carnivore": true,
+    "old" : "12 yrs",
+    "food": "deer, antelope",
+    "image" : "https://africantravelcanvas.com/wp-content/uploads/2019/07/Hyena-in-Hwange-National-Park.jpg"
+  },
+  {
+    "name": "Sea lions",
+    "weigh": "320.0 kg",
+    "speed": "11.0 km/h",
+    "carnivore": true,
+    "old" : "20 yrs",
+    "food": "tuna",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/7/74/California_sea_lion_in_La_Jolla_%2870568%29.jpg"
+  },
+  {
+    "name": "Black Panther",
+    "weigh": "65.0 kg",
+    "speed": "70.0 km/h",
+    "carnivore": true,
+    "old": "17 yrs",
+    "food": "deer, giraffe, rabbit",
+    "image" : "https://image.thanhnien.vn/768/uploaded/ngocquy/2020_11_02/bao-den-shutteertock_wfhd.jpg"
+  },
+  {
+    "name": "Otter",
+    "weigh": "8.0 kg",
+    "speed": "60.0 km/h",
+    "carnivore": true,
+    "old": "10 yrs",
+    "food": "fish, crab, shrimp",
+    "image" : "https://thamhiemmekong.com/wp-content/uploads/2020/04/vuonquocgiauminhthuong5.jpg"
+  },
+  {
+    "name": "Mole",
+    "weigh": "0.88 kg",
+    "speed": "38.0 km/h",
+    "carnivore": false,
+    "old": "2 yrs",
+    "food": "bugs, earthworm",
+    "image" : "https://www.biolib.cz/IMG/GAL/BIG/312798.jpg"
+  },
+  {
+    "name": "Kangaroo",
+    "weigh": "66.0 kg",
+    "speed": "70.0 km/h",
+    "carnivore": false,
+    "old": "22 yrs",
+    "food": "leaf, bugs",
+    "image" : "https://znews-photo.zadn.vn/w660/Uploaded/sgtnrb/2018_10_14/kangarooo_2_thumb.jpg"
+  },
+  {
+    "name": "Chimpanzee",
+    "weigh": "60.0 kg",
+    "speed": "58.7 km/h",
+    "carnivore": true,
+    "old": "39 yrs",
+    "food": "leaf, banana",
+    "image" : "https://i.guim.co.uk/img/media/e05960ad13956a76d550a97a06fba7a5afbf70cc/0_0_3488_2093/master/3488.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=7903f56d94a0d85a24f38b85350c4256"
+  },
+  {
+    "name": "Hedgehog",
+    "weigh": "1.2 kg",
+    "speed": "20.6 km/h",
+    "carnivore": false,
+    "old": "4 yrs",
+    "food": "leaf, grass",
+    "image" : "https://i.vietgiaitri.com/2019/8/29/loai-nhim-tien-hoa-mot-cach-ky-la-de-ton-tai-duoc-truoc-nhung-vu-chay-rung-2302be.jpg"
+  },
+  {
+    "name": "Castor Canadensis",
+    "weigh": "30.0 kg",
+    "speed": "47.0 km/h",
+    "carnivore": false,
+    "old": "8 yrs",
+    "food": "green vegetables, leaf",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f5/Castor_canadensis_-_Wilhelma_Zoo_-_Stuttgart%2C_Germany_-_DSC02120.jpg"
+  },
+  {
+    "name": "Stork",
+    "weigh": "2.3 kg",
+    "speed": "53.0 km/h",
+    "carnivore": true,
+    "old": "4 yrs",
+    "food": "fish, shrimp",
+    "image" : "https://cdn.pixabay.com/photo/2015/11/12/15/04/egret-1040448_960_720.jpg"
+  },
+  {
+    "name": "Killer Whales",
+    "weigh": "2700.0 kg",
+    "speed": "54.0 km/h",
+    "carnivore": true,
+    "old": "29 yrs",
+    "food": "tuna, fish",
+    "image" : "https://www.thoughtco.com/thmb/O6NPFTsTi2Sf-7K8mEHvRy14yYg=/1885x1414/smart/filters:no_upscale()/GettyImages-826128004-6cb21c0037424480b047a648e294e669.jpg"
+  },
+  {
+    "name": "Pangolin",
+    "weigh": "3.6 kg",
+    "speed": "9.o km/h",
+    "carnivore": false,
+    "old": "20 yrs",
+    "food": "ant, termite",
+    "image" : "https://www.pangolinreports.com/wp-content/uploads/2019/05/Nepal-Credit-Tulsi-Laxmi-Suwal_SMCRF_Nepal_860x540.jpg"
+  },
+  {
+    "name": "Octopus",
+    "weigh": "30.0 kg",
+    "speed": "19.7 km/h",
+    "carnivore": true,
+    "old": "5 yrs",
+    "food": "crab, shrimp, snail, mussel",
+    "image" : "https://cff2.earth.com/uploads/2019/01/25130108/Octopus-farms-could-have-a-dangerous-environmental-ripple-effect-730x410.jpg"
+  },
+  {
+    "name": "Gecko",
+    "weigh": "0.7 kg",
+    "speed": "54 km/h",
+    "carnivore": true,
+    "old": "10 yrs",
+    "food": "bugs, grasshopper, cricket",
+    "image" : "https://sonyericsson.com.vn/wp-content/uploads/2020/02/ta1.jpg"
+  },
+  {
+    "name": "Koala",
+    "weigh": "15.0 kg",
+    "speed": "8.0 km/h",
+    "carnivore": false,
+    "old": "13 yrs",
+    "food": "leaf",
+    "image" : "https://www.goodnet.org/photos/281x197/31909_hd.jpgv"
+  },
+  {
+    "name": "Camel",
+    "weigh": "600.0 kg",
+    "speed": "38.0 km/h",
+    "carnivore": false,
+    "old": "40 yrs",
+    "food": "grass",
+    "image" : "https://cdn.theculturetrip.com/wp-content/uploads/2018/02/13935205413_709cfab04e_k.jpg"
+  },
+  {
+    "name": "spider",
+    "weigh": "0,2 kg",
+    "speed": "2,6 km/h",
+    "carnivore": true,
+    "old": "5 yrs",
+    "food": "bugs",
+    "image" : "https://i2.wp.com/bdn-data.s3.amazonaws.com/uploads/2018/09/12918622_H23757542.JPG?fit=3301%2C2201&ssl=1"
+  },
+  {
+    "name": "Megabat",
+    "weigh": "1.1 kg",
+    "speed": "64 km/h",
+    "carnivore": false,
+    "old": "20 yrs",
+    "food": "banana, watermelon",
+    "image" : "https://i.pinimg.com/originals/fc/e0/7d/fce07dae152a2978699b75cb1972d667.jpg"
+  },
+  {
+    "name": "Ostrich",
+    "weigh": "120.0 kg",
+    "speed": "65.0 km/h",
+    "carnivore": false,
+    "old": "50 yrs",
+    "food": "leaf, green vegetables",
+    "image" : "https://img.etimg.com/thumb/msid-68576930,width-640,resizemode-4,imgsize-241582/where-is-it-from.jpg"
+  },
+  {
+    "name": "Penguins",
+    "weigh": "10.0 kg",
+    "speed": "9.0 km/h",
+    "carnivore": true,
+    "old": "20 yrs",
+    "food": "fish, squid",
+    "image" : "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/45/2019/11/MS_Penguin-Counting-Story_1900x800.jpg"
+  },
+  {
+    "name": "Owl",
+    "weigh": "2.0 kg",
+    "speed": "76.0 km/h",
+    "carnivore": true,
+    "old": "13 yrs",
+    "food": "mouse, rabbit, squirrel",
+    "image" : "https://i2.wp.com/critterfacts.com/wp-content/uploads/2019/08/s_183186434.jpg?w=1080&ssl=1"
+  },
+  {
+    "name": "Dog",
+    "weigh": "20.0 kg",
+    "speed": "64.0 km/h",
+    "carnivore": true,
+    "old": "10 yrs",
+    "food": "pork, cow, fish",
+    "image" : "https://i.insider.com/5ef54cb61918242cfb4ec653?width=1100&format=jpeg&auto=webp"
+  }
+]

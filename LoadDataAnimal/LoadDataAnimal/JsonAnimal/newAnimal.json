@@ -6,7 +6,7 @@
     "carnivore": true,
     "old" : "200yrs",
     "food": "pig, cow, grass",
-    "image" : "https://i.imgur.com/zFmrw6h.jpg"
+    "image" : "https://znews-photo.zadn.vn/w660/Uploaded/pcwvovbb/2019_09_20/kongskullislandhalong.jpg"
   },
   {
     "name": "White Sky",
@@ -33,7 +33,7 @@
     "carnivore": true,
     "old" : "12 yrs",
     "food": "antelope, boar",
-    "image" : "https://st.quantrimang.com/photos/image/2016/12/09/bao-san-650.jpg"
+    "image" : "https://i.pinimg.com/236x/1d/9f/de/1d9fdedb17fbb713ed1f3c4a5368ec41.jpg"
   },
   {
     "name": "Honey Badger",
@@ -68,7 +68,7 @@
     "speed": "40.0 km/h",
     "carnivore": true,
     "old" : "25 yrs",
-    "food": "salmon, honey, Ratel",
+    "food": "salmon, ratel",
     "image": "https://1acgtt12xmhd5laxc2saim4d-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/22556249_web1_Bear-Grizzly-2-1024x683.jpg"
   },
   {
@@ -114,7 +114,7 @@
     "carnivore": true,
     "old" : "22 yrs",
     "food": "mouse, fish",
-    "image": "https://images.kienthuc.net.vn/zoom/800/uploaded/ctvcongdongtre/2020_04_18/9/vi-sao-noi-meo-den-mang-lai-diem-xui-xeo.jpg"
+    "image": "https://giadinhpet.com/wp-content/uploads/2019/12/cham-soc-meo-tam-the-min.jpg"
   },
   {
     "name": "Turtle",
@@ -158,7 +158,7 @@
     "speed": "32.0 km/h",
     "carnivore": true,
     "old" : "70 yrs",
-    "food": "Zebra, Antelope",
+    "food": "zebra, antelope",
     "image": "https://static.scientificamerican.com/sciam/cache/file/489C6E6F-FB9B-43BA-9A9E0639B454F837_source.jpg"
   },
   {
@@ -167,7 +167,7 @@
     "speed": "50.0 km/h",
     "carnivore": true,
     "old" : "20 yrs",
-    "food": "tuna, ray, erignathus barbarous",
+    "food": "tuna, ray, erignathus",
     "image": "https://kpbs.media.clients.ellingtoncms.com/img/croppedphotos/2019/10/01/Great_White_Shark_Promo_Image_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d"
   },
   {
@@ -324,7 +324,7 @@
     "image" : "https://i.vietgiaitri.com/2019/8/29/loai-nhim-tien-hoa-mot-cach-ky-la-de-ton-tai-duoc-truoc-nhung-vu-chay-rung-2302be.jpg"
   },
   {
-    "name": "Castor Canadensis",
+    "name": "Castor Canaden",
     "weigh": "30.0 kg",
     "speed": "47.0 km/h",
     "carnivore": false,
@@ -384,7 +384,7 @@
     "carnivore": false,
     "old": "13 yrs",
     "food": "leaf",
-    "image" : "https://www.goodnet.org/photos/281x197/31909_hd.jpgv"
+    "image" : "https://vtv1.mediacdn.vn/thumb_w/640/2020/2/29/photo-1-1582985986069608641318.jpg"
   },
   {
     "name": "Camel",

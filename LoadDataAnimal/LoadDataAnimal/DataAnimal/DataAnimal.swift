@@ -14,6 +14,6 @@ struct DataAnimal: Codable {
     let speed: String
     let old: String
     let food: String
-    
+    let image: String
     
 }

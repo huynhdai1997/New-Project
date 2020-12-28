@@ -8,19 +8,21 @@
 import UIKit
 
 
-
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class ViewController: UIViewController  {
     
-    @IBOutlet weak var LoadDataCollectionView: UICollectionView!
+    @IBOutlet weak var loadDataCollectionView: UICollectionView!
     let animalImage = "Big Foot"
     let loadData = Bundle.main.decode(type: [DataAnimal].self, from: "newAnimal.json")
     let colorArray: [UIColor] = [.systemRed, .systemYellow, .systemOrange, .systemGreen, .systemBlue, .blue, .systemPurple, .brown]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        LoadDataCollectionView.dataSource = self
-        LoadDataCollectionView.delegate = self      
+        loadDataCollectionView.dataSource = self
+        loadDataCollectionView.delegate = self
     }
+}
+
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return loadData.count
@@ -40,8 +42,5 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         
         return cell
     }
-    
-    
-    
 }
 

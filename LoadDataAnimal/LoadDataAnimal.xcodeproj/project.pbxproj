@@ -84,12 +84,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA3DE42A2596170500CCF3B5 /* CollectionViewCell */ = {
+		AA3DE42A2596170500CCF3B5 /* ViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				AA5E139D25946D7100618A16 /* LoadDataCollectionViewCell.swift */,
 			);
-			path = CollectionViewCell;
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		AA3DE4312599823100CCF3B5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA5E136E25945A9E00618A16 /* ViewController.swift */,
+				AA5E137025945A9E00618A16 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		AA5E135E25945A9E00618A16 = {
@@ -115,14 +124,13 @@
 		AA5E136925945A9E00618A16 /* LoadDataAnimal */ = {
 			isa = PBXGroup;
 			children = (
-				AA3DE42A2596170500CCF3B5 /* CollectionViewCell */,
-				AA5E13B625947E4D00618A16 /* DataAnimal */,
+				AA3DE4312599823100CCF3B5 /* UI */,
+				AA3DE42A2596170500CCF3B5 /* ViewCell */,
+				AA5E13B625947E4D00618A16 /* Data */,
 				AA5E13A825947D4200618A16 /* BundleExtend */,
-				AA5E13A225947C2500618A16 /* JsonAnimal */,
+				AA5E13A225947C2500618A16 /* Resource */,
 				AA5E136A25945A9E00618A16 /* AppDelegate.swift */,
 				AA5E136C25945A9E00618A16 /* SceneDelegate.swift */,
-				AA5E136E25945A9E00618A16 /* ViewController.swift */,
-				AA5E137025945A9E00618A16 /* Main.storyboard */,
 				AA5E137325945AA300618A16 /* Assets.xcassets */,
 				AA5E137525945AA300618A16 /* LaunchScreen.storyboard */,
 				AA5E137825945AA300618A16 /* Info.plist */,
@@ -148,12 +156,12 @@
 			path = LoadDataAnimalUITests;
 			sourceTree = "<group>";
 		};
-		AA5E13A225947C2500618A16 /* JsonAnimal */ = {
+		AA5E13A225947C2500618A16 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				AA5E13A325947CEE00618A16 /* newAnimal.json */,
 			);
-			path = JsonAnimal;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		AA5E13A825947D4200618A16 /* BundleExtend */ = {
@@ -164,12 +172,12 @@
 			path = BundleExtend;
 			sourceTree = "<group>";
 		};
-		AA5E13B625947E4D00618A16 /* DataAnimal */ = {
+		AA5E13B625947E4D00618A16 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				AA5E13B125947E4300618A16 /* DataAnimal.swift */,
 			);
-			path = DataAnimal;
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

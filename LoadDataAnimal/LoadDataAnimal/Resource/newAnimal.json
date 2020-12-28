@@ -1,7 +1,7 @@
 [
   {
     "name": "Big Foot",
-    "weigh": "780.0 kg",
+    "weigh": "2780.0 kg",
     "speed": "45.0 km/h",
     "carnivore": true,
     "old" : "200yrs",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Lion King",
-    "weigh": "120.0 kg",
+    "weigh": "1120.0 kg",
     "speed": "50.4 km/h",
     "carnivore": true,
     "old" : "67 yrs",
@@ -41,7 +41,7 @@
     "speed": "53.0 km/h",
     "carnivore": true,
     "old" : "20 yrs",
-    "food": "honey, snake, ratel",
+    "food": "honey, snake,  ratel",
     "image" : "https://i.pinimg.com/originals/7e/17/9e/7e179ea2c43a14e1e6c60fac2e54ba5b.jpg"
   },
   {
@@ -72,7 +72,7 @@
     "image": "https://1acgtt12xmhd5laxc2saim4d-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/22556249_web1_Bear-Grizzly-2-1024x683.jpg"
   },
   {
-    "name": "elephants",
+    "name": "Elephants",
     "weigh": "4000.0 kg",
     "speed": "40.0 km/h",
     "carnivore": false,
@@ -81,7 +81,7 @@
     "image": "https://images.theconversation.com/files/62656/original/nrtfqxhv-1414079052.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
   },
   {
-    "name": "the wolf",
+    "name": "Wolf",
     "weigh": "70.0 kg",
     "speed": "60.0 km/h",
     "carnivore": true,
@@ -122,7 +122,7 @@
     "speed": "35.0 km/h",
     "carnivore": true,
     "old" : "150 yrs",
-    "food": "shrimp, crab, squid",
+    "food": "shrimp,crab, squid",
     "image": "https://tapchibosat.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/rC3B9a-Aldabra.jpeg?v=1589684540"
   },
   {
@@ -324,13 +324,13 @@
     "image" : "https://i.vietgiaitri.com/2019/8/29/loai-nhim-tien-hoa-mot-cach-ky-la-de-ton-tai-duoc-truoc-nhung-vu-chay-rung-2302be.jpg"
   },
   {
-    "name": "Castor Canaden",
-    "weigh": "30.0 kg",
+    "name": "Pavonidae",
+    "weigh": "3,8 kg",
     "speed": "47.0 km/h",
     "carnivore": false,
-    "old": "8 yrs",
-    "food": "green vegetables, leaf",
-    "image" : "https://upload.wikimedia.org/wikipedia/commons/f/f5/Castor_canadensis_-_Wilhelma_Zoo_-_Stuttgart%2C_Germany_-_DSC02120.jpg"
+    "old": "25 yrs",
+    "food": "green vegetables ",
+    "image" : "https://3.bp.blogspot.com/-u3u7myBxK6Q/WXlMwnkHH0I/AAAAAAAAQlM/OHLuyWiHtA4OZDAtHqlI-xAAF46-iw4OgCLcBGAs/s400/image001.jpg"
   },
   {
     "name": "Stork",
@@ -374,7 +374,7 @@
     "speed": "54 km/h",
     "carnivore": true,
     "old": "10 yrs",
-    "food": "bugs, grasshopper, cricket",
+    "food": "bugs,grasshopper, cricket",
     "image" : "https://sonyericsson.com.vn/wp-content/uploads/2020/02/ta1.jpg"
   },
   {

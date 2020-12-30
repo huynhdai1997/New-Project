@@ -7,6 +7,26 @@
 
 import UIKit
 
+extension UIImageView {
+    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        contentMode = mode
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard
+                let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
+                let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
+                let data = data, error == nil,
+                let image = UIImage(data: data)
+                else { return }
+            DispatchQueue.main.async() { [weak self] in
+                self?.image = image
+            }
+        }.resume()
+    }
+    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        guard let url = URL(string: link) else { return }
+        downloaded(from: url, contentMode: mode)
+    }
+}
 
 class ViewController: UIViewController  {
     
@@ -23,7 +43,7 @@ class ViewController: UIViewController  {
 }
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return loadData.count
     }
@@ -33,7 +53,9 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         let currentColorIndex = indexPath.row % colorArray.count
         
         cell.animalView.backgroundColor = colorArray[currentColorIndex]
-        cell.animalImageView.image = UIImage(named: animalImage)
+//        cell.animalImageView.image = UIImage(named: animalImage)
+        cell.animalImageView.downloaded(from: loadData[indexPath.row].image)
+
         cell.lblName.text = loadData[indexPath.row].name
         cell.lblWeigh.text = loadData[indexPath.row].weigh
         cell.lblSpeed.text = loadData[indexPath.row].speed
@@ -41,6 +63,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         cell.lblFood.text = loadData[indexPath.row].food
         
         return cell
+
     }
 }
 

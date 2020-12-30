@@ -16,7 +16,7 @@ extension Bundle {
             fatalError("Failed to lacate \(file) in bundle")
         }
         guard let data = try? Data(contentsOf: url) else {
-            fatalError("Fail to load \(file) from bundle")
+            fatalError("Failed to load \(file) from bundle")
         }
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = dateDecodingStrategy
@@ -24,10 +24,10 @@ extension Bundle {
         
         do {
             return try decoder.decode(T.self, from: data)
-        } catch DecodingError.dataCorrupted( _)  {
-            fatalError("Failed to decode \(file) from bundle ")
         } catch DecodingError.keyNotFound(let key, let context) {
             fatalError("Failed to decode \(file) from bundle due to missing key \(key.stringValue) not found - \(context.debugDescription)")
+        } catch DecodingError.dataCorrupted( _) {
+            fatalError("Failed to decode \(file) from bundle because it appears to be invalid JSON")
         } catch DecodingError.valueNotFound(let type, let context) {
             fatalError("Failed to decode \(file) from bundle due to missing \(type) value - \(context.debugDescription)")
         } catch DecodingError.typeMismatch( _, let context) {

@@ -17,6 +17,7 @@ class LoadDataCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblOld: UILabel!
     @IBOutlet weak var lblFood: UILabel!
     
+    
     override func layoutSubviews() {
         
         animalView.layer.cornerRadius = animalView.frame.height / 22

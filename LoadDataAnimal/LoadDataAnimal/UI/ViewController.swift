@@ -32,8 +32,8 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LoadDataCell", for: indexPath) as! LoadDataCollectionViewCell
         let currentColorIndex = indexPath.row % colorArray.count
+//        let animal = self.loadDataAnimal[indexPath.row]
         let animalImageUrl = URL(string: (self.loadDataAnimal[indexPath.row].image))!
-        
         cell.animalView.backgroundColor = colorArray[currentColorIndex]
         cell.animalImageView.loadImage(imgUrl: animalImageUrl)
         cell.lblName.text = loadDataAnimal[indexPath.row].name

@@ -10,7 +10,7 @@ import UIKit
 class LoadDataCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var animalView: UIView!
-    @IBOutlet weak var animalImageView: UIImageView!
+    @IBOutlet weak var animalImageView: ImageView!
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblWeigh: UILabel!
     @IBOutlet weak var lblSpeed: UILabel!

@@ -7,28 +7,40 @@
 import Foundation
 import UIKit
 
-let imageCache = NSCache<AnyObject, UIImage>()
-extension UIImageView {
-    
-    func loadImage(imgUrl: URL) {
-        
-       
-        if let cacheImage = imageCache.object(forKey: imgUrl as AnyObject) {
-            self.image = cacheImage
-            return
-        }
-        self.image = nil
-        DispatchQueue.global().async { [weak self] in
-            if let imageData = try? Data(contentsOf: imgUrl) {
-                if let imageToCache = UIImage(data: imageData){
-                    DispatchQueue.main.async {
-                        imageCache.setObject(imageToCache, forKey: imgUrl as AnyObject)
-                        self?.image = imageToCache
+var imageCache = NSCache<AnyObject, UIImage>()
+class ImageView: UIImageView {
+
+    var imageUrl: URL?
+   
+        func loadImage(imgUrl: URL, placeHolderImage: String) {
+            
+            imageUrl = imgUrl
+            image = nil
+            if image == nil {
+                self.image = UIImage(named: placeHolderImage)
+            }
+            
+            if let cacheImage = imageCache.object(forKey: imgUrl as AnyObject) {
+                self.image = cacheImage
+                return
+            }
+            
+            DispatchQueue.global().async { [weak self] in
+                if let imageData = try? Data(contentsOf: imgUrl) {
+                    if let imageToCache = UIImage(data: imageData){
+                        DispatchQueue.main.async {
+                            
+                            imageCache.setObject(imageToCache, forKey: imgUrl as AnyObject)
+                            if self?.imageUrl == imgUrl {
+                                self?.image = imageToCache
+                            }
+                        }
                     }
                 }
             }
         }
     }
-}
+
+
 
 

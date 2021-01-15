@@ -30,10 +30,10 @@ class ImageView: UIImageView {
                     if let imageToCache = UIImage(data: imageData){
                         DispatchQueue.main.async {
                             
-                            imageCache.setObject(imageToCache, forKey: imgUrl as AnyObject)
                             if self?.imageUrl == imgUrl {
                                 self?.image = imageToCache
                             }
+                            imageCache.setObject(imageToCache, forKey: imgUrl as AnyObject)
                         }
                     }
                 }

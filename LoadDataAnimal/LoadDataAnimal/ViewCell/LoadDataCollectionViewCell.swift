@@ -10,7 +10,7 @@ import UIKit
 class LoadDataCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var animalView: UIView!
-    @IBOutlet weak var animalImageView: ImageView!
+    @IBOutlet weak var animalImageView: CustomImageView!
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblWeigh: UILabel!
     @IBOutlet weak var lblSpeed: UILabel!
@@ -27,8 +27,8 @@ class LoadDataCollectionViewCell: UICollectionViewCell {
         animalImageView.contentMode = .scaleAspectFill
         animalImageView.layer.borderWidth = 2
         animalImageView.layer.borderColor = UIColor.white.cgColor
-        
- 
+       
+       
     }
 }
 

@@ -13,7 +13,7 @@ class ViewController: UIViewController  {
     @IBOutlet weak var loadDataCollectionView: UICollectionView!
     
     let loadDataAnimal = Bundle.main.decode(type: [DataAnimal].self, from: "newAnimal.json")
-    let colorArray: [UIColor] = [.systemRed, .systemYellow, .systemOrange, .systemGreen,                                 .systemBlue, .blue, .systemPurple, .brown]
+    let colorArray: [UIColor] = [.systemRed, .systemYellow, .systemOrange, .systemGreen,                                    .systemBlue, .blue, .systemPurple, .brown]
   
     
     override func viewDidLoad() {
@@ -31,7 +31,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 
-        return CGSize(width: (self.view.bounds.size.width - 48)/2, height: 270)
+        return CGSize(width: (collectionView.frame.width - 48)/2, height: 270)
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -41,7 +41,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
         let animalImageUrl = URL(string: (animal.image))!
         
         cell.animalView.backgroundColor = colorArray[currentColorIndex]
-        cell.animalImageView.loadImage(imgUrl: animalImageUrl, placeHolderImage: "DefaultImage")
+        cell.animalImageView.loadImage(url: animalImageUrl, placeHolderImage: "DefaultImage")
         cell.lblName.text = loadDataAnimal[indexPath.row].name
         cell.lblWeigh.text = loadDataAnimal[indexPath.row].weigh
         cell.lblSpeed.text = loadDataAnimal[indexPath.row].speed

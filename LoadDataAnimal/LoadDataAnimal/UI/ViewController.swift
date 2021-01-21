@@ -8,41 +8,33 @@
 import UIKit
 
 
+
 class ViewController: UIViewController  {
     
     @IBOutlet weak var loadDataCollectionView: UICollectionView!
     
+    var customImgView = CustomImageView()
+    var networkData = NetworkData()
     var dataAnimals = [DataAnimal]()
-    //    let loadDataAnimal = Bundle.main.decode(type: [DataAnimal].self, from: "newAnimal.json")
-    let colorArray: [UIColor] = [.systemRed, .systemYellow, .systemOrange, .systemGreen,                                    .systemBlue, .blue, .systemPurple, .brown]
-    
+    let colorArray: [UIColor] = [.systemRed, .systemYellow, .systemOrange, .systemGreen,                                    .systemBlue, .systemIndigo, .systemPurple, .brown]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadDataCollectionView.dataSource = self
         loadDataCollectionView.delegate   = self
-        fetchDataAnimal()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        networkData.fetchDataAnimal { data in
+            self.dataAnimals = data
+            DispatchQueue.main.async {
+                self.loadDataCollectionView.reloadData()
+            }
+        }
     }
 }
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-
-    func fetchDataAnimal() {
-        let urlAnimal = URL(string: "https://tests3resouce.s3-ap-southeast-1.amazonaws.com/newAnimal.json")
-        URLSession.shared.dataTask(with: urlAnimal!) { (data, response, error) in
-            if (error == nil && data != nil) {
-                do {
-                    self.dataAnimals = try JSONDecoder().decode([DataAnimal].self, from: data!)
-                }
-                catch {
-                    debugPrint("Failed to convert \(error.localizedDescription)")
-                }
-                DispatchQueue.main.async {
-                    self.loadDataCollectionView.reloadData()
-                }
-            }
-        }.resume()
-    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataAnimals.count
@@ -69,5 +61,20 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
         
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+        let colorIndexDetail = indexPath.row % colorArray.count
+        
+        detailVC?.imageDetail = URL(string: (dataAnimals[indexPath.row].image))!
+        detailVC?.backgroundColor = colorArray[colorIndexDetail]
+        detailVC?.titleNameDetail = dataAnimals[indexPath.row].name
+        detailVC?.detailName = dataAnimals[indexPath.row].name
+        detailVC?.detailWeigh = dataAnimals[indexPath.row].weigh
+        detailVC?.detailSpeed = dataAnimals[indexPath.row].speed
+        detailVC?.detailOld = dataAnimals[indexPath.row].old
+        detailVC?.detailFood = dataAnimals[indexPath.row].food
+        
+        self.navigationController?.pushViewController(detailVC!, animated: true)
+    }
 }
-

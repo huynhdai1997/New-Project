@@ -8,10 +8,10 @@ import Foundation
 import UIKit
 
 var imageCache = NSCache<AnyObject, UIImage>()
+
 class CustomImageView: UIImageView {
     
     var imageUrl: URL?
-    
     func loadImage(url: URL, placeHolderImage: String) {
         
         imageUrl = url
@@ -19,12 +19,10 @@ class CustomImageView: UIImageView {
         if image == nil {
             self.image = UIImage(named: placeHolderImage)
         }
-        
         if let cacheImage = imageCache.object(forKey: url as AnyObject) {
             self.image = cacheImage
             return
         }
-        
         DispatchQueue.global().async {
             if let imageData = try? Data(contentsOf: url) {
                 if let imageToCache = UIImage(data: imageData){

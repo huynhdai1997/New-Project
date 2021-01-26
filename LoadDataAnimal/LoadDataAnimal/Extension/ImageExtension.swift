@@ -7,10 +7,10 @@
 import Foundation
 import UIKit
 
-var imageCache = NSCache<AnyObject, UIImage>()
 
 class CustomImageView: UIImageView {
-    
+    var imageCache = NSCache<AnyObject, UIImage>()
+
     var imageUrl: URL?
     func loadImage(url: URL, placeHolderImage: String) {
         
@@ -30,7 +30,7 @@ class CustomImageView: UIImageView {
                         if self.imageUrl == url {
                             self.image = imageToCache
                         }
-                        imageCache.setObject(imageToCache, forKey: url as AnyObject)
+                        self.imageCache.setObject(imageToCache, forKey: url as AnyObject)
                     }
                 }
             }

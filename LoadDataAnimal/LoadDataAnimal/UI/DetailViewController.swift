@@ -7,9 +7,6 @@
 
 import UIKit
 
-
-
-
 class DetailViewController: UIViewController {
     
     
@@ -39,25 +36,29 @@ class DetailViewController: UIViewController {
         viewDetail.layer.cornerRadius = 20
         viewDetail.backgroundColor = backgroundColor
         
-        guard let urlImage = imageDetail else {
-            return
-        }
-        imageDetailView.loadImage(url: urlImage, placeHolderImage: "DefaultImage")
         imageDetailView.layer.cornerRadius = imageDetailView.frame.size.height / 2
         imageDetailView.clipsToBounds = true
         imageDetailView.layer.borderWidth = 2
         imageDetailView.contentMode = .scaleAspectFill
         imageDetailView.layer.borderColor = backgroundColor.cgColor
         
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        
         lblTitleNameDetail.text = titleNameDetail
         lblTitleNameDetail.textColor = backgroundColor
-        
         lblNameDetail.text = detailName
         lblWeighDetail.text = detailWeigh
         lblSpeedDetail.text = detailSpeed
         lblOldDetail.text = detailOld
         lblFoodDetail.text = detailFood
         
-        
+        guard let urlImage = imageDetail else {
+            return
+        }
+        imageDetailView.loadImage(url: urlImage, placeHolderImage: "DefaultImage")
     }
 }
+
+
+

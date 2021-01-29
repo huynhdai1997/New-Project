@@ -9,9 +9,8 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    
     @IBOutlet weak var lblTitleNameDetail: UILabel!
-    @IBOutlet weak var imageDetailView: CustomImageView!
+    @IBOutlet weak var imageDetailView: UIImageView!
     @IBOutlet weak var viewDetail: UIView!
     
     @IBOutlet weak var lblNameDetail: UILabel!
@@ -20,7 +19,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var lblOldDetail: UILabel!
     @IBOutlet weak var lblFoodDetail: UILabel!
     
-    var imageDetail: URL?
+    var imageDetail = UIImage()
     var titleNameDetail = ""
     var backgroundColor = UIColor()
     var detailName = ""
@@ -31,19 +30,26 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       setUpLayer()
+       
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        loadDataDetail()
+    } 
+    
+    func setUpLayer() {
+        lblTitleNameDetail.textColor = UIColor.white
         view.backgroundColor = UIColor.white
         viewDetail.layer.cornerRadius = 20
         viewDetail.backgroundColor = backgroundColor
-        
         imageDetailView.layer.cornerRadius = imageDetailView.frame.size.height / 2
         imageDetailView.clipsToBounds = true
         imageDetailView.layer.borderWidth = 2
         imageDetailView.contentMode = .scaleAspectFill
         imageDetailView.layer.borderColor = backgroundColor.cgColor
-        
     }
-    override func viewDidAppear(_ animated: Bool) {
+    
+    func loadDataDetail() {
         
         lblTitleNameDetail.text = titleNameDetail
         lblTitleNameDetail.textColor = backgroundColor
@@ -52,13 +58,13 @@ class DetailViewController: UIViewController {
         lblSpeedDetail.text = detailSpeed
         lblOldDetail.text = detailOld
         lblFoodDetail.text = detailFood
-        
-        guard let urlImage = imageDetail else {
-            return
-        }
-        imageDetailView.loadImage(url: urlImage, placeHolderImage: "DefaultImage")
-    }
+
+//        guard let urlImage = imageDetail else {
+//
+//            return
+//        }
+        imageDetailView.image = imageDetail
 }
 
-
+}
 

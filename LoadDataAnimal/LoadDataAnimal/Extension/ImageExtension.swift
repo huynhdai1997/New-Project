@@ -7,10 +7,9 @@
 import Foundation
 import UIKit
 
-
 class CustomImageView: UIImageView {
+    
     var imageCache = NSCache<AnyObject, UIImage>()
-
     var imageUrl: URL?
     func loadImage(url: URL, placeHolderImage: String) {
         
@@ -25,7 +24,7 @@ class CustomImageView: UIImageView {
         }
         DispatchQueue.global().async {
             if let imageData = try? Data(contentsOf: url) {
-                if let imageToCache = UIImage(data: imageData){
+                if let imageToCache = UIImage(data: imageData) {
                     DispatchQueue.main.async {
                         if self.imageUrl == url {
                             self.image = imageToCache

@@ -7,141 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "30191C81-DD2C-484F-B4E4-E17F18E9E8ED"
+            uuid = "F4B2FCCE-4F3E-4986-83DA-A49A1FDE658A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LoadDataAnimal/Extension/ImageExtension.swift"
+            filePath = "LoadDataAnimal/UI/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "loadImage(url:placeHolderImage:)"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "373DEEFD-9FE3-428E-9C98-A5094C9511CF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoadDataAnimal/Networking/NetworkData.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "fetchDataAnimal(complete:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LoadDataAnimal/UI/DetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "DetailViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - feacd0dba3b83bb5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.detailSpeed.getter : Swift.String"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "139">
-               </Location>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - 4ae7c9aa1db12829"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.detailSpeed.setter : Swift.String"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "174">
-               </Location>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - 58f44b48e7d58a38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.detailSpeed.modify : Swift.String"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "18">
-               </Location>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - f2a61b7a284dadd8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.detailSpeed.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - 92ff9ea0c6a4c954"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LoadDataAnimal.DetailViewController"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "2258">
-               </Location>
-               <Location
-                  uuid = "E20D3289-7538-44F7-9AEE-BF8B1AE3DD03 - 3ca6968885bb9291"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LoadDataAnimal.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LoadDataAnimal.DetailViewController&gt;"
-                  moduleName = "LoadDataAnimal"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/daihuynh/Documents/Project/LoadDataAnimal/LoadDataAnimal/UI/DetailViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "2207">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

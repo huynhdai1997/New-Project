@@ -15,5 +15,4 @@ struct DataAnimal: Codable {
     let old: String
     let food: String
     let image: String
-    
 }

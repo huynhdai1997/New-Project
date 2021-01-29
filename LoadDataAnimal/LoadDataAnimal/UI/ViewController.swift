@@ -8,7 +8,6 @@
 import UIKit
 
 
-
 class ViewController: UIViewController  {
     
     @IBOutlet weak var loadDataCollectionView: UICollectionView!
@@ -65,8 +64,15 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
         let colorIndexDetail = indexPath.row % colorArray.count
+        let animalDetail = self.dataAnimals[indexPath.row]
+        let animalImageUrlDetail = URL(string: (animalDetail.image))!
         
-        detailVC?.imageDetail = URL(string: (dataAnimals[indexPath.row].image))!
+         
+           
+        if let cell = collectionView.cellForItem(at: indexPath) as? LoadDataCollectionViewCell {
+            detailVC?.imageDetail = cell.animalImageView.image!
+                }
+        
         detailVC?.backgroundColor = colorArray[colorIndexDetail]
         detailVC?.titleNameDetail = dataAnimals[indexPath.row].name
         detailVC?.detailName = dataAnimals[indexPath.row].name

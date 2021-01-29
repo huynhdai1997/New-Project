@@ -30,8 +30,8 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       setUpLayer()
-       
+        setUpLayer()
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         loadDataDetail()
@@ -58,13 +58,8 @@ class DetailViewController: UIViewController {
         lblSpeedDetail.text = detailSpeed
         lblOldDetail.text = detailOld
         lblFoodDetail.text = detailFood
-
-//        guard let urlImage = imageDetail else {
-//
-//            return
-//        }
+        
         imageDetailView.image = imageDetail
-}
-
+    }
 }
 

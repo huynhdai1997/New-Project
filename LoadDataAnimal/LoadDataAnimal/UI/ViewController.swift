@@ -67,12 +67,9 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate, 
         let animalDetail = self.dataAnimals[indexPath.row]
         let animalImageUrlDetail = URL(string: (animalDetail.image))!
         
-         
-           
         if let cell = collectionView.cellForItem(at: indexPath) as? LoadDataCollectionViewCell {
             detailVC?.imageDetail = cell.animalImageView.image!
-                }
-        
+        }
         detailVC?.backgroundColor = colorArray[colorIndexDetail]
         detailVC?.titleNameDetail = dataAnimals[indexPath.row].name
         detailVC?.detailName = dataAnimals[indexPath.row].name
